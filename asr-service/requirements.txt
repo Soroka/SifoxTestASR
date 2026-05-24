@@ -26,7 +26,7 @@ onnxruntime==1.26.0
 # kenlm requires cmake + g++ at build time (provided in the Docker builder stage
 # and in the dev environment via system packages).
 pyctcdecode>=0.2.0,<1.0.0
-kenlm>=0.2.0,<1.0.0
+#kenlm>=0.2.0,<1.0.0
 
 # ── Web framework ─────────────────────────────────────────────────────────────
 fastapi==0.136.1
@@ -37,7 +37,7 @@ anyio==4.13.0
 python-multipart==0.0.20
 
 # ── Model download ────────────────────────────────────────────────────────────
-huggingface_hub==1.16.1
+huggingface_hub
 
 # ── Audio I/O & resampling ────────────────────────────────────────────────────
 librosa==0.11.0
